@@ -1,0 +1,197 @@
+/*
+ * wp-cinema CSS for Black background site
+ * (we think this looks better so it is the default)
+ * If you change this, please move it and use WP Cinema settings page
+ * to reflect new location.
+ */
+div.wpcinema_movie {
+	padding: 10px;
+	float: left;
+	/*width: 330px;*/
+	width: 270px;
+	height: 200px;
+}
+
+div.wpcinema_movie h3 {
+	margin:0;
+	padding: 0;
+}
+
+div.wpcinema_movie h3 a {
+	text-decoration: none;
+	text-transform: none;
+}
+
+div.movieinfo h3, div.movieinfo div {
+	font-size: 12px;
+    letter-spacing: 0.1em;
+    line-height: 19.5px;
+}
+
+/* Start Modified Original CSS*/
+div.moviethumb img {
+    border: thin solid #6E4B07;
+    padding: 0;
+}
+
+div.movieinfo h3.movieshowing a {
+	color: white;
+}
+
+div.movieinfo {
+	padding-bottom: 5px;
+	border-bottom: 1px;
+	border-color: #6E4B07;
+	border-style: solid;
+}
+
+div.wpcinema_movie h3 a:hover,div.entry-content div.days a:hover, div.movieinfo div.links a:hover, div.movieinfo div.sessions a:hover {
+	color: #FF8D3D;
+}
+
+div.wpcinema_movie, div.wpcinema_movie a, div.wpcinema_movie h3 a {
+	color: #e4741f;
+}
+
+div.wpcinema_movie h3.movietitle, div.wpcinema_movie h3.movietitle a {
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+}
+
+div.wpcinema_movie h3.movietitle, div.wpcinema_movie div.sessions, div.wpcinema_movie div.links {
+	margin: 4px 0;
+}
+
+div.moviethumb img {
+    border: thin solid #E4741F;
+    padding: 0;
+}
+
+div.movieinfo h3.movieshowing {
+    background-color: #330000;
+    border-bottom: 1px solid #E4741F;
+    border-top: 1px solid #E4741F;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+div.movieinfo h3.movieshowing {
+margin-bottom:5px;
+}
+
+div.movieinfo h3.movieshowing , div.movieinfo h3.movieshowing a, div.movieinfo h3.movieshowing a:link, div.movieinfo h3.movieshowing a:visited, div.movieinfo h3.movieshowing a:hover {
+    color: #FFFFFF;
+    font-family: Verdana,Tahoma,Arial,sans-serif;
+    font-size: 12px;
+}
+
+div.entry-content div.days {
+	font-size: 12px;
+	letter-spacing: 0.1em;
+    line-height: 27px;
+	font-weight: bold;
+}
+
+div.entry-content h2.wpcinema {
+	color: #e4741f;
+}
+
+div.entry-content div.days a {
+	color: #e4741f;
+}
+
+/* End Modified Original CSS*/
+
+div.wpcinema_movie .rating {
+    font-size: 80%;
+}
+
+div.moviethumb {
+	float: left;
+	width: 112px;
+	height: 152px;
+	margin-right: 5px;
+}
+
+/*
+div.moviethumb img {
+	padding: 5px;
+	border: thin solid black;
+}
+*/
+
+div.movieinfo {
+	float:left;
+	/*width: 210px;*/
+	width: 150px;
+}
+
+td.label, span.label {
+	font-weight: bold;
+}
+
+td.label {
+	text-align: right;
+	width: 120px;
+}
+
+.wpcinema_movie_detail .sessions {
+	margin: 10px 0;
+}
+
+.wpcinema_movie_detail .description {
+	margin: 10px 0 20px 0;
+}
+
+.wpcinema_movie_detail .booking {
+}
+
+.wpcinema_movie_detail .booking a,
+.wpcinema_movie_detail .booking a:link {
+	text-align: center;
+	display: block;
+	width: 8em;
+	padding: 5px;
+	margin: 20px 5px 5px 5px;
+	background-color: #5F4609;
+	color: white;
+	border: thin solid #c59113;
+}
+
+.wpcinema_movie_detail .booking a:active {
+	border-color: #5F4609;
+	background-color: #c59113;
+}
+
+.wpcinema_movie_detail .image {
+	float: right;
+}
+
+.wpcinema_movie_detail .image img {
+	border: thin solid #6E4B07;
+	margin: 5px;
+}
+
+h2.wpcinema {
+	float: left;
+	margin-top: 0;
+}
+
+div.days {
+	float: right;
+}
+
+.clear { clear: both; }
+
+div.goldclass {
+	width: auto;
+	height: auto;
+	float: none;
+}
+
+div.goldclass .movieinfo {
+	width: 581px;
+}
+
